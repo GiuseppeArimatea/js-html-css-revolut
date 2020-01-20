@@ -1,9 +1,16 @@
+
+
 $(document).ready(
   function () {
-    $('.ul > li.clicca').click(
+    $('ul > li.clicca').mouseenter(
       function () {
-        $(this).next('.dropdown').toggleClass('dropdown.active');
+        $(this).children('.dropdown').show();
       }
     );
+    $('ul > li.clicca').mouseleave(
+      function () {
+         $(this).children('.dropdown').hide();
+       }
+     );
   }
 );

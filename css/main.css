@@ -29,9 +29,7 @@ ul li a{
   text-decoration:none;
   color: grey;
 }
-ul li:nth-child(2) {
-  color: black;
-}
+
 
 button {
 display: inline-block;
@@ -47,10 +45,17 @@ color: white;
 }
 
 .dropdown {
-  list-style: none;
+  position: absolute;
   display: none;
+  transform: translateX(-22%);
+  padding: 0 10px;
+  box-shadow: rgba(0, 0, 0, 5) 0px 0px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
+  margin-top: 15px;
+  list-style: none;
+  padding-right: 24px;
 }
 
-.dropdown.active {
-  display: flex;
+
+.dropdown li {
+  margin-top: 20px;
 }

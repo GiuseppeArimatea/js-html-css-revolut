@@ -43,7 +43,12 @@ right: 14%;
 background-color:rgb(235, 0, 141);
 color: white;
 }
-
+.fa-chevron-down {
+  font-size: 14px;
+}
+.fa-chevron-up {
+  font-size: 14px;
+}
 .dropdown {
   position: absolute;
   display: none;
@@ -55,6 +60,9 @@ color: white;
   padding-right: 24px;
 }
 
+.active {
+  display: block;
+}
 
 .dropdown li {
   margin-top: 20px;
